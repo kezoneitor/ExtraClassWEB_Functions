@@ -1,0 +1,5 @@
+GET   | /api/contactos        | Lista completa                    |
+GET   | /api/contactos/:num   | elemento especifico               |
+POST  | /api/contactos/       | actualiza un contacto o lo crea   |
+PUT   | /api/contactos/       | crea un contacto                  |
+DELETE| /api/contactos/:id    | Elimina un elemento               |
