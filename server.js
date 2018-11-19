@@ -16,3 +16,7 @@ admin.initializeApp({
 });
 
 require("./routers")(app);
+
+app.listen(process.env.PORT, () => {
+  console.log('https://extraclass-3dd39.herokuapp.com');
+})
