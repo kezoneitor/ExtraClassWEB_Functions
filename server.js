@@ -17,6 +17,6 @@ admin.initializeApp({
 
 require("./routers")(app);
 
-app.listen(3000, 'localhost', () => {
-  console.log('http://localhost:3000/');
+app.listen('https://extraclass-3dd39.herokuapp.com', () => {
+  console.log('https://extraclass-3dd39.herokuapp.com/');
 })
