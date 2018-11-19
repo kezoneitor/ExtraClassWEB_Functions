@@ -16,7 +16,3 @@ admin.initializeApp({
 });
 
 require("./routers")(app);
-
-app.listen('https://extraclass-3dd39.herokuapp.com', () => {
-  console.log('https://extraclass-3dd39.herokuapp.com/');
-})
